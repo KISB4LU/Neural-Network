@@ -136,7 +136,7 @@ int main(){
                 cout<<"milyen neven szeretne menteni az adott halozatot: ";
                 string fname;
                 cin>>fname;
-                bool err2 = true
+                bool err2 = true;
                 while(err2){
                     if(extension_check(fname, ".dat")){
                         NN.save(fname.c_str());
